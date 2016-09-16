@@ -25,8 +25,8 @@ class TruliaStats(object):
 
 
     # -------------------
-	# Function decorators
-	# -------------------
+    # Function decorators
+    # -------------------
 
     def get_stats(f):
         """
@@ -41,8 +41,8 @@ class TruliaStats(object):
 
 
     # -------------
-	# Class methods
-	# -------------
+    # Class methods
+    # -------------
 
     @get_stats
     def get_city_stats(self, city, state, start=date.today()-timedelta(days=30), end=date.today(), type="all"):
